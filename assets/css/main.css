@@ -54,6 +54,9 @@ ul {
 li {
   list-style-type: none;
 }
+li img {
+  display: none;
+}
 li a {
   text-decoration: none;
   color: #838391;
@@ -71,6 +74,10 @@ li a:hover::before {
 li a:hover, li a[href="#"] {
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.bullet {
+  display: none;
 }
 
 main {
@@ -245,7 +252,7 @@ footer {
   }
 
   nav {
-    width: 10%;
+    width: max-content;
   }
   nav .fa {
     display: block;
@@ -255,9 +262,70 @@ footer {
   nav ul {
     display: none;
   }
+  nav ul.active {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    display: block;
+    background-color: #070724;
+    width: 100%;
+    height: 90vh;
+  }
+  nav ul.active li {
+    margin-block: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #38384F;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul.active li a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  nav ul.active li img {
+    display: inline;
+    margin-block: auto;
+    margin-right: 30px;
+  }
+  nav ul.active li .bullet {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  nav ul.active li #bullet-mercury {
+    background-color: #419EBB;
+  }
+  nav ul.active li #bullet-venus {
+    background-color: #EDA249;
+  }
+  nav ul.active li #bullet-earth {
+    background-color: #6F2ED6;
+  }
+  nav ul.active li #bullet-mars {
+    background-color: #D14C32;
+  }
+  nav ul.active li #bullet-jupiter {
+    background-color: #D83A34;
+  }
+  nav ul.active li #bullet-saturn {
+    background-color: #CD5120;
+  }
+  nav ul.active li #bullet-uranus {
+    background-color: #1EC2A4;
+  }
+  nav ul.active li #bullet-neptune {
+    background-color: #2D68F0;
+  }
 
   main {
     grid-template-areas: "btns btns" "img img" "text text";
+  }
+  main img {
+    max-width: 300px;
   }
 
   .info {
