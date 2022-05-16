@@ -27,8 +27,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 2rem;
+  padding-inline: 2rem;
   height: 10vh;
+  border-bottom: 1px solid #38384F;
 }
 
 .logo {
@@ -40,6 +41,9 @@ header {
 
 nav {
   width: 60%;
+}
+nav .fa {
+  display: none;
 }
 
 ul {
@@ -228,5 +232,111 @@ footer {
 
   .xtics {
     padding-inline: 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    display: flex;
+  }
+
+  .logo {
+    width: 40%;
+    text-align: left;
+  }
+
+  nav {
+    width: 10%;
+  }
+  nav .fa {
+    display: block;
+    font-size: 2rem;
+    color: #FFFFFF;
+  }
+  nav ul {
+    display: none;
+  }
+
+  main {
+    grid-template-areas: "btns btns" "img img" "text text";
+  }
+
+  .info {
+    text-align: center;
+    margin-block: 2rem;
+  }
+
+  .buttons {
+    align-self: flex-start;
+    display: flex;
+    height: max-content;
+    border-bottom: 1px solid #38384F;
+  }
+
+  button {
+    border: none;
+    padding-left: 0;
+  }
+  button span {
+    display: none;
+  }
+  button:nth-of-type(1)::after {
+    content: "overview";
+  }
+  button:nth-of-type(2)::after {
+    content: "structure";
+  }
+  button:nth-of-type(3)::after {
+    content: "geology";
+  }
+
+  #mercury button.active {
+    border-bottom: 5px solid #419EBB;
+  }
+
+  #venus button.active {
+    border-bottom: 5px solid #EDA249;
+  }
+
+  #earth button.active {
+    border-bottom: 5px solid #6F2ED6;
+  }
+
+  #mars button.active {
+    border-bottom: 5px solid #D14C32;
+  }
+
+  #jupiter button.active {
+    border-bottom: 5px solid #D83A34;
+  }
+
+  #saturn button.active {
+    border-bottom: 5px solid #CD5120;
+  }
+
+  #uranus button.active {
+    border-bottom: 5px solid #1EC2A4;
+  }
+
+  #neptune button.active {
+    border-bottom: 5px solid #2D68F0;
+  }
+
+  footer {
+    display: block;
+    height: max-content;
+    margin-top: 5rem;
+  }
+
+  .xtics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 0.5rem;
+  }
+  .xtics-name {
+    font-size: 1rem;
+  }
+  .xtics-detail {
+    font-size: 1.5rem;
   }
 }

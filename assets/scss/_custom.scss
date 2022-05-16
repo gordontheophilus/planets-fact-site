@@ -1,12 +1,4 @@
-$mecury-color: #419EBB;
-$venus-color: #EDA249;
-$earth-color: #6F2ED6;
-$mars-color: #D14C32;
-$jupiter-color: #D83A34;
-$saturn-color: #CD5120;
-$uranus-color: #1EC2A4;
-$neptune-color: #2D68F0;
-
+@use './config' as *;
 
 #mercury {
   a:hover::before {

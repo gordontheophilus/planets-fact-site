@@ -1,0 +1,139 @@
+@media only screen and (max-width: 500px){
+  header {
+    display: flex;
+  }
+
+  .logo{
+    width: 40%;
+    text-align: left;
+  }
+
+  nav {
+    width: 10%;
+
+    .fa {
+      display: block;
+      font-size: 2rem;
+      color: #FFFFFF;
+    }
+
+    ul {
+      display: none;
+    }
+  }
+
+  main {
+    grid-template-areas: 'btns btns'
+                          'img img'
+                          'text text';
+  }
+
+  .info {
+    text-align: center;
+    margin-block: 2rem;
+  }
+
+  .buttons {
+    align-self: flex-start;
+    display: flex;
+    height: max-content;
+    border-bottom: 1px solid #38384F;
+  }
+
+  button{
+    border: none;
+    padding-left: 0;
+
+    span {
+      display: none;
+    }
+
+    &:nth-of-type(1){
+      &::after {
+        content: 'overview';
+      }
+    }
+
+    &:nth-of-type(2){
+      &::after {
+        content: 'structure';
+      }
+    }
+
+    &:nth-of-type(3){
+      &::after {
+        content: 'geology';
+      }
+    }
+
+  }
+
+  #mercury {
+    button.active {
+    border-bottom: 5px solid #419EBB;
+    }
+  }
+
+  #venus {
+    button.active {
+    border-bottom: 5px solid #EDA249;
+    }
+  }
+
+  #earth {
+    button.active {
+    border-bottom: 5px solid #6F2ED6;
+    }
+  }
+
+  #mars {
+    button.active {
+    border-bottom: 5px solid #D14C32;
+    }
+  }
+
+  #jupiter {
+    button.active {
+    border-bottom: 5px solid #D83A34;
+    }
+  }
+
+  #saturn {
+    button.active {
+    border-bottom: 5px solid #CD5120;
+    }
+  }
+
+  #uranus {
+    button.active {
+    border-bottom: 5px solid #1EC2A4;
+    }
+  }
+
+  #neptune {
+    button.active {
+    border-bottom: 5px solid #2D68F0;
+    }
+  }
+
+  footer {
+    display: block;
+    height: max-content;
+    margin-top: 5rem;
+  }
+
+  .xtics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-block: .5rem;
+
+    &-name {
+      font-size: 1rem;
+    }
+
+    &-detail {
+      font-size: 1.5rem;
+    }
+  }
+}

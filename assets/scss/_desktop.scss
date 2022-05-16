@@ -23,8 +23,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-inline: 2rem;
+  padding-inline: 2rem;
   height: 10vh;
+  border-bottom: 1px solid #38384F;
 }
 
 .logo {
@@ -36,6 +37,10 @@ header {
 
 nav {
   width: 60%;
+
+  .fa {
+    display: none;
+  }
 }
 
 ul {
