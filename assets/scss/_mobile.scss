@@ -152,7 +152,7 @@
 
       &:nth-of-type(3){
         &::after {
-          content: 'geology';
+          content: 'surface';
         }
       }
 
@@ -161,48 +161,56 @@
     #mercury {
       button.active {
       border-bottom: 5px solid $mecury-color;
+      background-color: transparent;
       }
     }
 
     #venus {
       button.active {
       border-bottom: 5px solid $venus-color;
+      background-color: transparent;
       }
     }
 
     #earth {
       button.active {
       border-bottom: 5px solid $earth-color;
+      background-color: transparent;
       }
     }
 
     #mars {
       button.active {
       border-bottom: 5px solid $mars-color;
+      background-color: transparent;
       }
     }
 
     #jupiter {
       button.active {
       border-bottom: 5px solid $jupiter-color;
+      background-color: transparent;
       }
     }
 
     #saturn {
       button.active {
       border-bottom: 5px solid $saturn-color;
+      background-color: transparent;
       }
     }
 
     #uranus {
       button.active {
       border-bottom: 5px solid $uranus-color;
+      background-color: transparent;
       }
     }
 
     #neptune {
       button.active {
       border-bottom: 5px solid $neptune-color;
+      background-color: transparent;
       }
     }
 

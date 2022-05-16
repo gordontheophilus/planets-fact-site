@@ -354,39 +354,47 @@ footer {
     content: "structure";
   }
   button:nth-of-type(3)::after {
-    content: "geology";
+    content: "surface";
   }
 
   #mercury button.active {
     border-bottom: 5px solid #419EBB;
+    background-color: transparent;
   }
 
   #venus button.active {
     border-bottom: 5px solid #EDA249;
+    background-color: transparent;
   }
 
   #earth button.active {
     border-bottom: 5px solid #6F2ED6;
+    background-color: transparent;
   }
 
   #mars button.active {
     border-bottom: 5px solid #D14C32;
+    background-color: transparent;
   }
 
   #jupiter button.active {
     border-bottom: 5px solid #D83A34;
+    background-color: transparent;
   }
 
   #saturn button.active {
     border-bottom: 5px solid #CD5120;
+    background-color: transparent;
   }
 
   #uranus button.active {
     border-bottom: 5px solid #1EC2A4;
+    background-color: transparent;
   }
 
   #neptune button.active {
     border-bottom: 5px solid #2D68F0;
+    background-color: transparent;
   }
 
   footer {
