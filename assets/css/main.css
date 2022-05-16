@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #070724;
+  color: #838391;
+}
+
+h1 {
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: "League Spartan", sans-serif;
+  line-height: 1.5;
+  margin-block: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 2rem;
+  height: 10vh;
+}
+
+.logo {
+  width: 20%;
+  font-family: "Antonio", sans-serif;
+  font-size: 1.5rem;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #838391;
+  font-family: "Antonio", sans-serif;
+}
+
+main {
+  height: 70vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img text" "img btns";
+}
+main img {
+  grid-area: img;
+  justify-self: center;
+  max-width: 400px;
+}
+
+.info {
+  grid-area: text;
+  padding-inline: 20%;
+}
+
+.buttons {
+  grid-area: btns;
+  padding-inline: 20%;
+  display: block;
+}
+
+button {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #38384F;
+  color: #838391;
+  text-align: center;
+  text-transform: uppercase;
+  padding-block: 0.5rem;
+  margin-block: 0.25rem;
+}
+
+#source {
+  color: #38384F;
+  text-decoration: none;
+}
+
+.wikipedia {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #838391;
+}
+
+footer {
+  height: 20vh;
+  display: flex;
+  margin-inline: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xtics {
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  font-weight: bold;
+}
+.xtics-detail {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
