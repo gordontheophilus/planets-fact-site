@@ -35,6 +35,7 @@ header {
   width: 20%;
   font-family: "Antonio", sans-serif;
   font-size: 1.5rem;
+  color: #FFFFFF;
 }
 
 nav {
@@ -53,6 +54,19 @@ li a {
   text-decoration: none;
   color: #838391;
   font-family: "Antonio", sans-serif;
+  transition: all 0.25s ease-out;
+}
+li a:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 5px;
+  border-radius: 100px;
+}
+li a:hover, li a[href="#"] {
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 main {
@@ -84,11 +98,16 @@ button {
   width: 100%;
   background-color: transparent;
   border: 2px solid #38384F;
-  color: #838391;
+  color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
-  padding-block: 0.5rem;
+  padding-block: 0.7rem;
   margin-block: 0.25rem;
+  border-radius: 5px;
+  transition: all 0.25s ease-out;
+}
+button:hover {
+  background-color: #838391;
 }
 
 #source {
@@ -118,4 +137,60 @@ footer {
 .xtics-detail {
   font-size: 2rem;
   color: #FFFFFF;
+}
+
+#mercury a:hover::before {
+  background-color: #419EBB;
+}
+#mercury button.active {
+  background-color: #419EBB;
+}
+
+#venus a:hover::before {
+  background-color: #EDA249;
+}
+#venus button.active {
+  background-color: #EDA249;
+}
+
+#earth a:hover::before {
+  background-color: #6F2ED6;
+}
+#earth button.active {
+  background-color: #6F2ED6;
+}
+
+#mars a:hover::before {
+  background-color: #D14C32;
+}
+#mars button.active {
+  background-color: #D14C32;
+}
+
+#jupiter a:hover::before {
+  background-color: #D83A34;
+}
+#jupiter button.active {
+  background-color: #D83A34;
+}
+
+#saturn a:hover::before {
+  background-color: #CD5120;
+}
+#saturn button.active {
+  background-color: #CD5120;
+}
+
+#uranus a:hover::before {
+  background-color: #1EC2A4;
+}
+#uranus button.active {
+  background-color: #1EC2A4;
+}
+
+#neptune a:hover::before {
+  background-color: #419EBB;
+}
+#neptune button.active {
+  background-color: #2D68F0;
 }
