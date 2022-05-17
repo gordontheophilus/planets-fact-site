@@ -2,12 +2,12 @@
 
 ## About The Project
     This project is built as part of the requirement for
-AmaliTech Training Program.
+    AmaliTech Training Program.
     It is a website that shows information about the
-eight planets in the solar system.
+    eight planets in the solar system.
     It shows the overview, internal structure, surface
-geology, rotation time, revolution time, radius and average
-temperature of each planet.
+    geology, rotation time, revolution time, radius and average
+    temperature of each planet.
 
 ## Features
 - The project is built to be responsive on mobile to desktop
@@ -21,7 +21,7 @@ between open and close navbar
 - You just need a browser on any device to visit the 
 deployment link
 
-### Deployment Link
+*Deployment Link*
 <https://github.com/gordontheophilus/planets-fact-site>
 
 ## Technologies
