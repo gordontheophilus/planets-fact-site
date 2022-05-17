@@ -36,17 +36,20 @@ const routes = [
 ];
 
 // Load JSON data
-
 const getURL = (url) => {
   url = window.location.href;
   if (url.includes("routes")) {
     url = url.split("routes/")[0];
     return url;
-  } else if (url.includes("index.html")) {
+  }
+
+  if (url.includes("index.html")) {
     url = url.split("index.html")[0];
     return url;
-  } else {
-    return;
+  }
+
+  if (!url.includes("routes") && !url.includes("index.html")) {
+    return url;
   }
 };
 
