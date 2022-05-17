@@ -226,7 +226,8 @@ footer {
 
   main {
     grid-template-areas: "img img" "text btns";
-    height: 80vh;
+    height: max-content;
+    grid-template-rows: max-content;
   }
 
   img {
