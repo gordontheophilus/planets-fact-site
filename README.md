@@ -13,7 +13,7 @@
 - The project is built to be responsive on mobile to desktop
 devices.
 - Click the Overview, Internal Structure and Surface Geology
-buttons to display their information such information
+buttons to display such information about the planets
 - On mobile phone devices, click to hamburger icon to toggle
 between open and close navbar
 
@@ -21,7 +21,7 @@ between open and close navbar
 - You just need a browser on any device to visit the 
 deployment link
 
-*Deployment Link*
+- *Deployment Link*
 <https://github.com/gordontheophilus/planets-fact-site>
 
 ## Technologies
