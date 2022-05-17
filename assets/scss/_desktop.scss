@@ -1,9 +1,8 @@
 @use './config' as *;
 
 body {
-  background-color: $black;
   color: $lightgray;
-
+  background: $black url(../images/background-stars.svg) no-repeat;
 }
 
 h1 {

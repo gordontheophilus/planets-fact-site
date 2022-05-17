@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #070724;
   color: #838391;
+  background: #070724 url(../images/background-stars.svg) no-repeat;
 }
 
 h1 {
