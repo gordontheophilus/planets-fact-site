@@ -1,13 +1,9 @@
 # Planets Facts Website
 
 ## About The Project
-    This project is built as part of the requirement for
-    AmaliTech Training Program.
-    It is a website that shows information about the
-    eight planets in the solar system.
-    It shows the overview, internal structure, surface
-    geology, rotation time, revolution time, radius and average
-    temperature of each planet.
+This project is built as part of the requirement for AmaliTech Training Program.
+It is a website that shows information about the eight planets in the solar system.
+It shows the overview, internal structure, surface geology, rotation time, revolution time, radius and average temperature of each planet.
 
 ## Features
 - The project is built to be responsive on mobile to desktop
