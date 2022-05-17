@@ -109,6 +109,8 @@
     
 
     main {
+      height: max-content;
+      grid-template-rows: max-content;
       grid-template-areas: 'btns btns'
                             'img img'
                             'text text';
