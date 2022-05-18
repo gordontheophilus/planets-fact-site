@@ -121,6 +121,7 @@ button {
 }
 button:hover {
   background-color: #838391;
+  cursor: pointer;
 }
 
 #source {
