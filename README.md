@@ -18,7 +18,7 @@ between open and close navbar
 deployment link
 
 - *Deployment Link*
-<https://github.com/gordontheophilus/planets-fact-site>
+<https://gordontheophilus.github.io/planets-fact-site/>
 
 ## Technologies
 - HTML
